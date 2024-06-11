@@ -1,0 +1,44 @@
+.carousel-item {
+    height: 100vh;
+}
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.dropdown-menu {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+.dropdown-menu .dropdown-item {
+    color: #000; /* Altere a cor do texto conforme desejado */
+}
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: none;
+    color: #000; /* Altere a cor do texto conforme desejado */
+}
+.dropdown-toggle:hover {
+    background-color: transparent !important;
+    color: #000; /* Altere a cor do texto conforme desejado */
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  .absolute {
+    position: absolute; /* Posicionamento absoluto para o h2 */
+    top: 50%; /* Posiciona o h2 na metade vertical da imagem */
+    left: 50%; /* Posiciona o h2 na metade horizontal da imagem */
+    transform: translate(-50%, -50%); /* Compensa o deslocamento do posicionamento absoluto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  /* Aplicando a fonte ao texto do banner */
+  .banner-text {
+    color: #980002;
+    text-shadow: 5px 5px 0px rgb(255, 255, 255);
+  }
+  
+  
